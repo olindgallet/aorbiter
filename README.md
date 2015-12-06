@@ -1,9 +1,9 @@
 # aorbiter - Loading Jam Entry (December 2015)
 Source code for the #LoadingJam entry AOrbiter.
 
-Created by: [Olin Gallet](http://www.olingallet.com) | [@olingallet](http://www.twitter.com/olingallet)
+Created by: <a target="_blank" href="http://www.olingallet.com">Olin Gallet</a> | <a target="_blank" href="http://www.twitter.com/olingallet">@olingallet</a>
 
-Play the game at: [http://olingallet.itch.io/aorbiter](http://olingallet.itch.io/aorbiter)
+Play the game at: <a target="_blank" href="http://olingallet.itch.io/aorbiter">itch.io</a>
 
 I am making my source code for this project available under the MIT license in hopes of helping you out in your programming journey.  Much of the code is documented and I will provide instructions on how to build the project. If there's anything that's unclear feel free to contact me.
 
