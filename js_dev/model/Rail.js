@@ -14,6 +14,10 @@ function Rail(radius){
 }
 
 Rail.prototype = {
+	/**
+	 * Moves the ship down.
+	 * @param distance {int} the distance to move the ship
+	 * @method moveShipDown
 	moveShipDown: function(distance){
 		this.shipPosition = this.shipPosition + distance;
 		if (this.shipPosition > this.radius){
@@ -21,8 +25,9 @@ Rail.prototype = {
 		}
 	}, 
 	/**
-	 * Increases the shield by a random amount.
-	 * @method increase
+	 * Moves the ship up.
+	 * @param distance {int} the distance to move the ship
+	 * @method moveShipUp
 	 */
 	moveShipUp: function(distance){
 		this.shipPosition = this.shipPosition - distance;
