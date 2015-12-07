@@ -46,14 +46,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-spritesmith');
   grunt.loadNpmTasks('grunt-contrib-copy');
   
   // Register our own custom task alias.
   grunt.registerTask('compile',      ['concat', 'uglify', 'clean:fatjs']);
   grunt.registerTask('compiletest', ['concat']);
-  grunt.registerTask('spritesheet',  ['imagemin', 'sprite', 'copy:images', 'clean:spritecss']);
   grunt.registerTask('backup', ['copy:backup']);
 };
